@@ -39,7 +39,7 @@
         "tags": [
           "AvailabilitySets"
         ],
-        "operationId": "AvailabilitySets_CreateOrUpdate1",
+        "operationId": "AvailabilitySets_CreateOrUpdate",
         "description": "Create or update an availability set.",
         "parameters": [
           {
@@ -55,13 +55,6 @@
             "required": true,
             "type": "string",
             "description": "The name of the availability set."
-          },
-          {
-            "name": "testParam1",
-            "in": "path",
-            "required": true,
-            "type": "string",
-            "description": "Test parameter."
           },
           {
             "name": "parameters",
@@ -163,7 +156,7 @@
         "tags": [
           "AvailabilitySets"
         ],
-        "operationId": "AvailabilitySets_Delete1",
+        "operationId": "AvailabilitySets_Delete",
         "description": "Delete an availability set.",
         "parameters": [
           {
@@ -175,13 +168,6 @@
           },
           {
             "name": "availabilitySetName",
-            "in": "path",
-            "required": true,
-            "type": "string",
-            "description": "The name of the availability set."
-          },
-          {
-            "name": "testParam1",
             "in": "path",
             "required": true,
             "type": "string",
