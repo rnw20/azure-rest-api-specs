@@ -163,7 +163,7 @@
         "tags": [
           "AvailabilitySets"
         ],
-        "operationId": "AvailabilitySets_Delete",
+        "operationId": "AvailabilitySets_Delete1",
         "description": "Delete an availability set.",
         "parameters": [
           {
@@ -175,6 +175,13 @@
           },
           {
             "name": "availabilitySetName",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "description": "The name of the availability set."
+          },
+          {
+            "name": "testParam1",
             "in": "path",
             "required": true,
             "type": "string",
