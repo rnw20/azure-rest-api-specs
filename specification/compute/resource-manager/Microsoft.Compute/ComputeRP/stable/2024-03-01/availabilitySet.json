@@ -39,7 +39,7 @@
         "tags": [
           "AvailabilitySets"
         ],
-        "operationId": "AvailabilitySets_CreateOrUpdate",
+        "operationId": "AvailabilitySets_CreateOrUpdate1",
         "description": "Create or update an availability set.",
         "parameters": [
           {
@@ -57,7 +57,7 @@
             "description": "The name of the availability set."
           },
           {
-            "name": "testParam",
+            "name": "testParam1",
             "in": "path",
             "required": true,
             "type": "string",
