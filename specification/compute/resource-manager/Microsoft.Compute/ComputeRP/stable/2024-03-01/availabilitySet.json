@@ -57,7 +57,7 @@
             "description": "The name of the availability set."
           },
           {
-            "name": "testParam",
+            "name": "testParam1",
             "in": "path",
             "required": true,
             "type": "string",
