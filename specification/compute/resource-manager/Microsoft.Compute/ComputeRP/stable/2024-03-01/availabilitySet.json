@@ -156,7 +156,7 @@
         "tags": [
           "AvailabilitySets"
         ],
-        "operationId": "AvailabilitySets_Delete1",
+        "operationId": "AvailabilitySets_Delete123",
         "description": "Delete an availability set.",
         "parameters": [
           {
